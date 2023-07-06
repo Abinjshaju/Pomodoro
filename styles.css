@@ -1,0 +1,89 @@
+/* Import the specified fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+/* Apply styles to the HTML and body elements */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('src/assets/lofi-girl.gif');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Apply styles to the container element */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Apply styles to the h1 element */
+h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  color: #fff;
+  user-select: none;
+}
+
+h2, a {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  user-select: none;
+}
+
+a:hover {
+  color: #bdbdbd;
+}
+
+a:active {
+  color: #fff;
+}
+
+/* Apply styles to the timer element */
+#timer {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 300px;
+  font-weight: bold;
+  margin-top: 40px;
+  color: #fff;
+  user-select: none;
+}
+
+/* Apply styles to the button container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Apply styles to the buttons */
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 50px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+/* Apply styles to the buttons on hover */
+button:hover {
+  background-color: #000;
+}
+
+/* Apply styles to the buttons on hover */
+.plug {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  position: fixed;
+  bottom: 20px;
+}
